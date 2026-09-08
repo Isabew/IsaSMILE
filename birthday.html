@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Birthday Project — IsaSMILE</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Karla:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="nav-container">
+    <a href="index.html" class="nav-logo">
+      <img src="assets/isasmilelogo_transparent.png" alt="">
+      <span><span class="logo-isa">Isa</span><span class="logo-smile">SMILE</span></span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="schedule.html">Schedule</a></li>
+      <li><a href="birthday.html" class="active">Birthday Project</a></li>
+      <li><a href="credit.html">Credit</a></li>
+    </ul>
+  </div>
+</nav>
+
+<section class="bday-hero container">
+  <div>
+    <h1>Isabel's Birthday Project</h1>
+    <p>Would you like to be part of it?</p>
+    <a href="#initiatives" class="btn btn-primary">See how to join</a>
+  </div>
+  <div class="countdown-frame">
+    <div class="countdown-target">Target date: Sept 18 — Isabel's birthday party</div>
+    <div class="countdown-grid" id="countdown">
+      <div class="countdown-unit"><span class="num" id="cd-days">00</span><span class="label">Days</span></div>
+      <div class="countdown-unit"><span class="num" id="cd-hours">00</span><span class="label">Hours</span></div>
+      <div class="countdown-unit"><span class="num" id="cd-mins">00</span><span class="label">Minutes</span></div>
+      <div class="countdown-unit"><span class="num" id="cd-secs">00</span><span class="label">Seconds</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="container" id="initiatives">
+  <div class="section-head">
+    <h2>The project</h2>
+    <p>A special birthday project made with love for Isabel, brought together by IsaSMILE. 💙<br>
+
+From every message and contribution to every little detail, everything was prepared with one simple wish — to make her birthday a little more special. <br>Thank you to everyone who joined us and helped make this project possible. Together, let’s create a beautiful and unforgettable birthday celebration for Isabel! 🎉💐</p>
+  </div>
+  <div class="bento-grid bento-3">
+    <div class="initiative-card">
+      <div class="initiative-icon i-salmon">🎁</div>
+      <h3>Donation Drive</h3>
+      <p>We're pooling funds for birthday project setup costs.</p>
+    </div>
+    <div class="initiative-card">
+      <div class="initiative-icon i-salmon">🎨</div>
+      <h3>Fanart Collection</h3>
+      <p>Drawings, edits, and photo manips from the fandom, compiled into a shared gallery.</p>
+    </div>
+  </div>
+</section>
+
+<section class="container">
+  <div class="section-head">
+    <h2>How to join</h2>
+    <p>Taking part only takes a few minutes.</p>
+  </div>
+  <div class="steps">
+    <div class="step-item">
+      <span class="step-num"></span>
+      <div>
+        <h3 style="margin-bottom:4px;">Join the conversation</h3>
+        <p style="margin:0;">Follow and join Isasmile Instagram and Discord.</p>
+      </div>
+    </div>
+    <div class="step-item">
+      <span class="step-num"></span>
+      <div>
+        <h3 style="margin-bottom:4px;">Pick a project</h3>
+        <p style="margin:0;">Choose one — or more — of the initiatives above. No need to join all of them.</p>
+      </div>
+    </div>
+    <div class="step-item">
+      <span class="step-num"></span>
+      <div>
+        <h3 style="margin-bottom:4px;">Submit before the deadline</h3>
+        <p style="margin:0;">Send your contribution, message, or artwork through the linked form before it closes.</p>
+      </div>
+    </div>
+    <div class="step-item">
+      <span class="step-num"></span>
+      <div>
+        <h3 style="margin-bottom:4px;">Celebrate together</h3>
+        <p style="margin:0;">Join us on the day to watch it all come together — that's the best part.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">IsaSMILE</div>
+        <p>A fan-run home for everything Isabel — built by the fans who show up for her, every era.</p>
+        <div class="footer-social">
+          <a href="https://discord.gg/p3qsa4rFu6" aria-label="Discord">DC</a>
+          <a href="https://www.instagram.com/isasmile0911/" aria-label="Instagram">IG</a>
+          <a href="https://www.tiktok.com/@isasmile0911?_r=1&_t=ZS-99YtHi2XewD" aria-label="TikTok">TT</a>
+        </div>
+      </div>
+      <div>
+        <div class="footer-heading">Explore</div>
+        <ul class="footer-links">
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="schedule.html">Schedule</a></li>
+          <li><a href="birthday.html">Birthday Project</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="footer-heading">About</div>
+        <ul class="footer-links">
+          <li><a href="credit.html">Credit</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; <span class="js-year"></span> IsaSMILE. Made with love, not affiliated with Isabel or her agency.</span>
+      <span>Fan-made, non-commercial project.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gallery — IsaSMILE</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Karla:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="nav-container">
+    <a href="index.html" class="nav-logo">
+      <img src="assets/isasmilelogo_transparent.png" alt="">
+      <span><span class="logo-isa">Isa</span><span class="logo-smile">SMILE</span></span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="gallery.html" class="active">Gallery</a></li>
+      <li><a href="schedule.html">Schedule</a></li>
+      <li><a href="birthday.html">Birthday Project</a></li>
+      <li><a href="credit.html">Credit</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container page-content">
+  <div class="section-head">
+    <h1>Gallery</h1>
+    <p>TBC<br>-Edward :D</p>
+  </div>
+
+  <div class="callout">🦆 TBC <br>-Edward :D</div>
+
+  <div class="filter-row">
+    <button class="filter-pill active" data-filter="all">All</button>
+    <button class="filter-pill" data-filter="stage">Stage</button>
+    <button class="filter-pill" data-filter="candid">Candid</button>
+    <button class="filter-pill" data-filter="edits">Fan Edits</button>
+  </div>
+
+  <div class="gallery-grid">
+    <div class="gallery-item wide" data-category="stage">
+      <div class="placeholder-art tone-salmon"><img src="assets/sushi.svg" alt=""></div>
+      <div class="gallery-caption">TBC</div>
+    </div>
+    <div class="gallery-item" data-category="candid">
+      <div class="placeholder-art tone-sky"><img src="assets/goose.svg" alt=""></div>
+      <div class="gallery-caption">TBC</div>
+    </div>
+    <div class="gallery-item tall" data-category="stage">
+      <div class="placeholder-art tone-duck"><img src="assets/sushi.svg" alt=""></div>
+      <div class="gallery-caption">TBC</div>
+    </div>
+    <div class="gallery-item" data-category="edits">
+      <div class="placeholder-art tone-rice"><img src="assets/goose.svg" alt=""></div>
+      <div class="gallery-caption">TBC</div>
+    </div>
+    <div class="gallery-item" data-category="candid">
+      <div class="placeholder-art tone-salmon"><img src="assets/goose.svg" alt=""></div>
+      <div class="gallery-caption">TBC</div>
+    </div>
+    <div class="gallery-item" data-category="stage">
+      <div class="placeholder-art tone-sky"><img src="assets/sushi.svg" alt=""></div>
+      <div class="gallery-caption">TBC</div>
+    </div>
+    <div class="gallery-item" data-category="edits">
+      <div class="placeholder-art tone-duck"><img src="assets/goose.svg" alt=""></div>
+      <div class="gallery-caption">TBC</div>
+    </div>
+    <div class="gallery-item wide" data-category="candid">
+      <div class="placeholder-art tone-rice"><img src="assets/sushi.svg" alt=""></div>
+      <div class="gallery-caption">TBC</div>
+    </div>
+    <div class="gallery-item" data-category="stage">
+      <div class="placeholder-art tone-salmon"><img src="assets/goose.svg" alt=""></div>
+      <div class="gallery-caption">TBC</div>
+    </div>
+    <div class="gallery-item" data-category="edits">
+      <div class="placeholder-art tone-sky"><img src="assets/sushi.svg" alt=""></div>
+      <div class="gallery-caption">TBC</div>
+    </div>
+  </div>
+</div>
+
+<div class="lightbox" id="lightbox">
+  <div class="lightbox-inner">
+    <div class="lightbox-art">
+      <button class="lightbox-close" aria-label="Close">&times;</button>
+    </div>
+    <div class="lightbox-body">
+      <p class="lightbox-caption" style="margin:0; font-weight:700; color:var(--ink);"></p>
+    </div>
+  </div>
+</div>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">IsaSMILE</div>
+        <p>A fan-run home for everything Isabel — built by the fans who show up for her, every era.</p>
+        <div class="footer-social">
+          <a href="https://discord.gg/p3qsa4rFu6" aria-label="Discord">DC</a>
+          <a href="https://www.instagram.com/isasmile0911/" aria-label="Instagram">IG</a>
+          <a href="https://www.tiktok.com/@isasmile0911?_r=1&_t=ZS-99YtHi2XewD" aria-label="TikTok">TT</a>
+        </div>
+      </div>
+      <div>
+        <div class="footer-heading">Explore</div>
+        <ul class="footer-links">
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="schedule.html">Schedule</a></li>
+          <li><a href="birthday.html">Birthday Project</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="footer-heading">About</div>
+        <ul class="footer-links">
+          <li><a href="credit.html">Credit</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; <span class="js-year"></span> IsaSMILE. Made with love, not affiliated with Isabel or her agency.</span>
+      <span>Fan-made, non-commercial project.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/script.js"></script>
+</body>
+</html>
