@@ -385,7 +385,13 @@ section{ padding:64px 0; }
   position:absolute; inset:0;
   display:flex; align-items:center; justify-content:center;
 }
-.placeholder-art img{ width:34%; opacity:.9; }
+.placeholder-art img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  object-position:center;
+  opacity:.9;
+}
 .placeholder-art.tone-salmon{ background:linear-gradient(160deg, var(--salmon-light), var(--salmon)); }
 .placeholder-art.tone-sky{ background:linear-gradient(160deg, var(--sky-light), var(--sky-deep)); }
 .placeholder-art.tone-duck{ background:linear-gradient(160deg, #FBE6A8, var(--duck-yellow)); }
